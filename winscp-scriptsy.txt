@@ -1,0 +1,20 @@
+# Connect to SFTP server
+open sftp://kenya_SY%258734:IqaYTwn*FNs!973z@02dc68b.netsolhost.com
+# Download remote to local folder
+get /Clinic_53_Ngeri/*.7z -latest C:\Temp\SY_Data\Ngeri\
+get /Clinic_55_Ogongo/*.7z -latest C:\Temp\SY_Data\Ogongo\
+get /Clinic_59_Kisegi/*.7z -latest C:\Temp\SY_Data\Kisegi\
+get /Clinic_63_Humanist/*.7z -latest C:\Temp\SY_Data\Humanist\
+get /Clinic_64_Sena/*.7z -latest C:\Temp\SY_Data\Sena\
+get /Clinic_69_Sibuoche/*.7z -latest C:\Temp\SY_Data\Sibuoche\
+get /Clinic_73_Midida/*.7z -latest C:\Temp\SY_Data\Midida\
+get /Clinic_90_Oyani/*.7z -latest C:\Temp\SY_Data\Oyani\
+get /Clinic_67_Ongo/*.7z -latest C:\Temp\SY_Data\Ongo\
+get /Clinic_50_Nyatoto/*.7z -latest C:\Temp\SY_Data\Nyatoto\
+get /Clinic_56_Kitare/*.7z -latest C:\Temp\SY_Data\Kitare\
+
+# optional: Remove remote files (remove #)
+# rm /var/lib/myfolderofinterest/*
+# Exit WINSCP
+exit
+
