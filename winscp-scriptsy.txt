@@ -1,5 +1,5 @@
 # Connect to SFTP server
-open sftp://kenya_SY%258734:IqaYTwn*FNs!973z@02dc68b.netsolhost.com
+open sftp://type server access credentials here i.e host, username and password
 # Download remote to local folder
 get /Clinic_53_Ngeri/*.7z -latest C:\Temp\SY_Data\Ngeri\
 get /Clinic_55_Ogongo/*.7z -latest C:\Temp\SY_Data\Ogongo\
