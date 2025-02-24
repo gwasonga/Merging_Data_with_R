@@ -291,7 +291,7 @@ totalext<-rbind.fill(studyexit63, studyexit73, studyexit53, studyexit55, studyex
                      studyexit64, studyexit69, studyexit59, studyexit67, studyexit50, 
                      studyexit56)
 
-#To export merged SY_DB tablets to excel
+#To export merged SY_DB tablets to excel - csv format
 library("writexl")
 write.csv( totalal,"C:/Temp/SY_Data/Merged_Data//alcohol.csv")
 write.csv( totalalcen,"C:/Temp/SY_Data/Merged_Data//alcoholenrollment.csv")
